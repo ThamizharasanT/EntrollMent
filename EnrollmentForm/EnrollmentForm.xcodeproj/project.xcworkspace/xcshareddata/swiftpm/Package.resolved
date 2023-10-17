@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "stepindicator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chenyun122/StepIndicator.git",
+      "state" : {
+        "revision" : "e3980bb5ce315ea5c3f032d7122d8472c8bfacbd",
+        "version" : "1.0.9"
+      }
+    },
+    {
+      "identity" : "textfieldeffects",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/raulriera/TextFieldEffects.git",
+      "state" : {
+        "revision" : "7e563d4d6d755bb1ab6c1c049f8c215d7c489100",
+        "version" : "1.7.0"
+      }
+    },
+    {
+      "identity" : "tweetextfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/oleghnidets/TweeTextField.git",
+      "state" : {
+        "revision" : "790fc253b534e1f72525ca03150a5dd1264cbcf4",
+        "version" : "1.6.4"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A678DEB0B43521F419C071B /* Pods_EnrollmentForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B84EECBC00E7C7F6D340795A /* Pods_EnrollmentForm.framework */; };
+		D03A27772AC6D65000CECC6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A27762AC6D65000CECC6F /* AppDelegate.swift */; };
+		D03A27792AC6D65000CECC6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A27782AC6D65000CECC6F /* SceneDelegate.swift */; };
+		D03A277E2AC6D65000CECC6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03A277C2AC6D65000CECC6F /* Main.storyboard */; };
+		D03A27802AC6D65300CECC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03A277F2AC6D65300CECC6F /* Assets.xcassets */; };
+		D03A27832AC6D65300CECC6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03A27812AC6D65300CECC6F /* LaunchScreen.storyboard */; };
+		D03A278B2AC6D68400CECC6F /* EntrollmentFormVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A278A2AC6D68400CECC6F /* EntrollmentFormVc.swift */; };
+		D0822C802AD3B290000E3F9B /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0822C7F2AD3B290000E3F9B /* Modal.swift */; };
+		D0822C822AD3B5BC000E3F9B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0822C812AD3B5BC000E3F9B /* ApiService.swift */; };
+		D0822C842AD3BA66000E3F9B /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0822C832AD3BA66000E3F9B /* AppConstant.swift */; };
+		D0BFFB382ADD8B4C00E5A623 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D0BFFB372ADD8B4C00E5A623 /* iOSDropDown */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8737190768C90EEE4EDFAE22 /* Pods-EnrollmentForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnrollmentForm.release.xcconfig"; path = "Target Support Files/Pods-EnrollmentForm/Pods-EnrollmentForm.release.xcconfig"; sourceTree = "<group>"; };
+		B84EECBC00E7C7F6D340795A /* Pods_EnrollmentForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnrollmentForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90C07F94117A79F73D716A4 /* Pods-EnrollmentForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnrollmentForm.debug.xcconfig"; path = "Target Support Files/Pods-EnrollmentForm/Pods-EnrollmentForm.debug.xcconfig"; sourceTree = "<group>"; };
+		D03A27732AC6D65000CECC6F /* EnrollmentForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnrollmentForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03A27762AC6D65000CECC6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03A27782AC6D65000CECC6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D03A277D2AC6D65000CECC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03A277F2AC6D65300CECC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03A27822AC6D65300CECC6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03A27842AC6D65300CECC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03A278A2AC6D68400CECC6F /* EntrollmentFormVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrollmentFormVc.swift; sourceTree = "<group>"; };
+		D0822C7F2AD3B290000E3F9B /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		D0822C812AD3B5BC000E3F9B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		D0822C832AD3BA66000E3F9B /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03A27702AC6D65000CECC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A678DEB0B43521F419C071B /* Pods_EnrollmentForm.framework in Frameworks */,
+				D0BFFB382ADD8B4C00E5A623 /* iOSDropDown in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FB6F8D23D842A0C8268EDF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C90C07F94117A79F73D716A4 /* Pods-EnrollmentForm.debug.xcconfig */,
+				8737190768C90EEE4EDFAE22 /* Pods-EnrollmentForm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D03A276A2AC6D65000CECC6F = {
+			isa = PBXGroup;
+			children = (
+				D03A27752AC6D65000CECC6F /* EnrollmentForm */,
+				D03A27742AC6D65000CECC6F /* Products */,
+				5FB6F8D23D842A0C8268EDF6 /* Pods */,
+				F306E7EC2F45B712834C11DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D03A27742AC6D65000CECC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03A27732AC6D65000CECC6F /* EnrollmentForm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03A27752AC6D65000CECC6F /* EnrollmentForm */ = {
+			isa = PBXGroup;
+			children = (
+				D03A27762AC6D65000CECC6F /* AppDelegate.swift */,
+				D03A27782AC6D65000CECC6F /* SceneDelegate.swift */,
+				D03A278A2AC6D68400CECC6F /* EntrollmentFormVc.swift */,
+				D0822C812AD3B5BC000E3F9B /* ApiService.swift */,
+				D0822C832AD3BA66000E3F9B /* AppConstant.swift */,
+				D0822C7F2AD3B290000E3F9B /* Modal.swift */,
+				D03A277C2AC6D65000CECC6F /* Main.storyboard */,
+				D03A277F2AC6D65300CECC6F /* Assets.xcassets */,
+				D03A27812AC6D65300CECC6F /* LaunchScreen.storyboard */,
+				D03A27842AC6D65300CECC6F /* Info.plist */,
+			);
+			path = EnrollmentForm;
+			sourceTree = "<group>";
+		};
+		F306E7EC2F45B712834C11DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B84EECBC00E7C7F6D340795A /* Pods_EnrollmentForm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03A27722AC6D65000CECC6F /* EnrollmentForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03A27872AC6D65300CECC6F /* Build configuration list for PBXNativeTarget "EnrollmentForm" */;
+			buildPhases = (
+				508800FE39CE947A575202E6 /* [CP] Check Pods Manifest.lock */,
+				D03A276F2AC6D65000CECC6F /* Sources */,
+				D03A27702AC6D65000CECC6F /* Frameworks */,
+				D03A27712AC6D65000CECC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnrollmentForm;
+			packageProductDependencies = (
+				D0BFFB372ADD8B4C00E5A623 /* iOSDropDown */,
+			);
+			productName = EnrollmentForm;
+			productReference = D03A27732AC6D65000CECC6F /* EnrollmentForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03A276B2AC6D65000CECC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D03A27722AC6D65000CECC6F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D03A276E2AC6D65000CECC6F /* Build configuration list for PBXProject "EnrollmentForm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03A276A2AC6D65000CECC6F;
+			packageReferences = (
+				D0BFFB362ADD8B4C00E5A623 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+			);
+			productRefGroup = D03A27742AC6D65000CECC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03A27722AC6D65000CECC6F /* EnrollmentForm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03A27712AC6D65000CECC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A27832AC6D65300CECC6F /* LaunchScreen.storyboard in Resources */,
+				D03A27802AC6D65300CECC6F /* Assets.xcassets in Resources */,
+				D03A277E2AC6D65000CECC6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		508800FE39CE947A575202E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnrollmentForm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03A276F2AC6D65000CECC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03A27772AC6D65000CECC6F /* AppDelegate.swift in Sources */,
+				D0822C822AD3B5BC000E3F9B /* ApiService.swift in Sources */,
+				D03A27792AC6D65000CECC6F /* SceneDelegate.swift in Sources */,
+				D0822C842AD3BA66000E3F9B /* AppConstant.swift in Sources */,
+				D03A278B2AC6D68400CECC6F /* EntrollmentFormVc.swift in Sources */,
+				D0822C802AD3B290000E3F9B /* Modal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03A277C2AC6D65000CECC6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03A277D2AC6D65000CECC6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03A27812AC6D65300CECC6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03A27822AC6D65300CECC6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03A27852AC6D65300CECC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D03A27862AC6D65300CECC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03A27882AC6D65300CECC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90C07F94117A79F73D716A4 /* Pods-EnrollmentForm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHG445RHV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnrollmentForm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macappstudio.HeyCampus.EnrollmentForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03A27892AC6D65300CECC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8737190768C90EEE4EDFAE22 /* Pods-EnrollmentForm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GHG445RHV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnrollmentForm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macappstudio.HeyCampus.EnrollmentForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03A276E2AC6D65000CECC6F /* Build configuration list for PBXProject "EnrollmentForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03A27852AC6D65300CECC6F /* Debug */,
+				D03A27862AC6D65300CECC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03A27872AC6D65300CECC6F /* Build configuration list for PBXNativeTarget "EnrollmentForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03A27882AC6D65300CECC6F /* Debug */,
+				D03A27892AC6D65300CECC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0BFFB362ADD8B4C00E5A623 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0BFFB372ADD8B4C00E5A623 /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BFFB362ADD8B4C00E5A623 /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D03A276B2AC6D65000CECC6F /* Project object */;
+}
